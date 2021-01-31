@@ -2,8 +2,7 @@
 Instagram bot for view stories/get likers from post. 
 
 
-# Getting hrefs of users, who liked some post
-
+Getting hrefs of users, who liked some post
 ```
 from instagram_private_api import Client, ClientCompatPatch
 
@@ -24,6 +23,8 @@ print(users)
 users_href = ['https://www.instagram.com/' + str(i['username']) for i in users]
 print(users_href)
 ```
+
+
 
 if you want create some subscribe:
 ```
