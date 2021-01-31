@@ -47,6 +47,7 @@ Next, lets create view stories bot:
 
 
 Download chromedriver.exe and add him to the PATH (on windows)
+(link https://sites.google.com/a/chromium.org/chromedriver/downloads)
 
 next
 ```
