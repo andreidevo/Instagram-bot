@@ -24,3 +24,12 @@ print(users)
 users_href = ['https://www.instagram.com/' + str(i['username']) for i in users]
 print(users_href)
 ```
+
+if you want create some subscribe:
+```
+for i in users:
+    api.friendships_create(i['pk'])
+    sleep(2)
+```
+
+so, all documentation you can find here: https://github.com/ping/instagram_private_api/blob/master/COMPAT.md 
