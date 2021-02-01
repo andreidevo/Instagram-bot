@@ -49,18 +49,14 @@ Next, lets create view stories bot:
 Download chromedriver.exe and add him to the PATH (on windows)
 (link https://sites.google.com/a/chromium.org/chromedriver/downloads)
 
-next
+next just copy and paste :)
 ```
 from time import sleep
 from pathlib import Path
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import pickle
-```
 
-just copy and paste :)
-
-```
 users_href = ['https://www.instagram.com/pink.member', 'https://www.instagram.com/pockypack_']
 driver = webdriver.Chrome(
             executable_path=f'chromedriver.exe') # here is a path for chromedriver.exe, in my case locates in main folder with py file.
